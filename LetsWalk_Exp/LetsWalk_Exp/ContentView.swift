@@ -12,6 +12,7 @@ import CoreMotion
 struct ContentView: View {
     @State private var steps: Int?
     @State private var distance: Double?
+    @AppStorage("stepCount", store: UserDefaults(suiteName: "group.com.ShakFeizi.LetsWalk_Exp")) var stepCount: Int = 0
     
     private let pedometer: CMPedometer = CMPedometer()
     
@@ -41,6 +42,7 @@ struct ContentView: View {
     }
     
     private func distanceTypeConverter(data: CMPedometerData) {
+        self.stepCount = data.numberOfSteps.intValue
         self.steps = data.numberOfSteps.intValue
         guard let pedometerDistance = data.distance else { return }
         let distanceInMeter = Measurement(value: pedometerDistance.doubleValue, unit: UnitLength.meters)

@@ -11,7 +11,38 @@
 		6D4683CF28A54F31007FB56D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4683CE28A54F31007FB56D /* ContentView.swift */; };
 		6D4683D128A54F34007FB56D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D4683D028A54F34007FB56D /* Assets.xcassets */; };
 		6D4683D428A54F34007FB56D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D4683D328A54F34007FB56D /* Preview Assets.xcassets */; };
+		6D4683E128A5607C007FB56D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4683E028A5607C007FB56D /* WidgetKit.framework */; };
+		6D4683E328A5607C007FB56D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4683E228A5607C007FB56D /* SwiftUI.framework */; };
+		6D4683E628A5607C007FB56D /* LetsWalk_Exp_Widgit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4683E528A5607C007FB56D /* LetsWalk_Exp_Widgit.swift */; };
+		6D4683E928A5607E007FB56D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D4683E828A5607E007FB56D /* Assets.xcassets */; };
+		6D4683EB28A5607E007FB56D /* LetsWalk_Exp_Widgit.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 6D4683E728A5607C007FB56D /* LetsWalk_Exp_Widgit.intentdefinition */; };
+		6D4683EC28A5607E007FB56D /* LetsWalk_Exp_Widgit.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 6D4683E728A5607C007FB56D /* LetsWalk_Exp_Widgit.intentdefinition */; };
+		6D4683EF28A5607E007FB56D /* LetsWalk_Exp_WidgitExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6D4683DE28A5607C007FB56D /* LetsWalk_Exp_WidgitExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D4683ED28A5607E007FB56D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D4683C128A54F31007FB56D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D4683DD28A5607C007FB56D;
+			remoteInfo = LetsWalk_Exp_WidgitExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6D4683F328A5607E007FB56D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6D4683EF28A5607E007FB56D /* LetsWalk_Exp_WidgitExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6D4683C928A54F31007FB56D /* LetsWalk_Exp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsWalk_Exp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +50,15 @@
 		6D4683CE28A54F31007FB56D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6D4683D028A54F34007FB56D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D4683D328A54F34007FB56D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6D4683DE28A5607C007FB56D /* LetsWalk_Exp_WidgitExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LetsWalk_Exp_WidgitExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D4683E028A5607C007FB56D /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		6D4683E228A5607C007FB56D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		6D4683E528A5607C007FB56D /* LetsWalk_Exp_Widgit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsWalk_Exp_Widgit.swift; sourceTree = "<group>"; };
+		6D4683E728A5607C007FB56D /* LetsWalk_Exp_Widgit.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = LetsWalk_Exp_Widgit.intentdefinition; sourceTree = "<group>"; };
+		6D4683E828A5607E007FB56D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D4683EA28A5607E007FB56D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D4683F428A560D0007FB56D /* LetsWalk_Exp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LetsWalk_Exp.entitlements; sourceTree = "<group>"; };
+		6D4683F528A56163007FB56D /* LetsWalk_Exp_WidgitExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LetsWalk_Exp_WidgitExtension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,13 +69,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6D4683DB28A5607C007FB56D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4683E328A5607C007FB56D /* SwiftUI.framework in Frameworks */,
+				6D4683E128A5607C007FB56D /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		6D4683C028A54F31007FB56D = {
 			isa = PBXGroup;
 			children = (
+				6D4683F528A56163007FB56D /* LetsWalk_Exp_WidgitExtension.entitlements */,
 				6D4683CB28A54F31007FB56D /* LetsWalk_Exp */,
+				6D4683E428A5607C007FB56D /* LetsWalk_Exp_Widgit */,
+				6D4683DF28A5607C007FB56D /* Frameworks */,
 				6D4683CA28A54F31007FB56D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				6D4683C928A54F31007FB56D /* LetsWalk_Exp.app */,
+				6D4683DE28A5607C007FB56D /* LetsWalk_Exp_WidgitExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +104,7 @@
 		6D4683CB28A54F31007FB56D /* LetsWalk_Exp */ = {
 			isa = PBXGroup;
 			children = (
+				6D4683F428A560D0007FB56D /* LetsWalk_Exp.entitlements */,
 				6D4683CC28A54F31007FB56D /* LetsWalk_ExpApp.swift */,
 				6D4683CE28A54F31007FB56D /* ContentView.swift */,
 				6D4683D028A54F34007FB56D /* Assets.xcassets */,
@@ -67,6 +121,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		6D4683DF28A5607C007FB56D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D4683E028A5607C007FB56D /* WidgetKit.framework */,
+				6D4683E228A5607C007FB56D /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D4683E428A5607C007FB56D /* LetsWalk_Exp_Widgit */ = {
+			isa = PBXGroup;
+			children = (
+				6D4683E528A5607C007FB56D /* LetsWalk_Exp_Widgit.swift */,
+				6D4683E728A5607C007FB56D /* LetsWalk_Exp_Widgit.intentdefinition */,
+				6D4683E828A5607E007FB56D /* Assets.xcassets */,
+				6D4683EA28A5607E007FB56D /* Info.plist */,
+			);
+			path = LetsWalk_Exp_Widgit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +151,34 @@
 				6D4683C528A54F31007FB56D /* Sources */,
 				6D4683C628A54F31007FB56D /* Frameworks */,
 				6D4683C728A54F31007FB56D /* Resources */,
+				6D4683F328A5607E007FB56D /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6D4683EE28A5607E007FB56D /* PBXTargetDependency */,
 			);
 			name = LetsWalk_Exp;
 			productName = LetsWalk_Exp;
 			productReference = 6D4683C928A54F31007FB56D /* LetsWalk_Exp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		6D4683DD28A5607C007FB56D /* LetsWalk_Exp_WidgitExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D4683F028A5607E007FB56D /* Build configuration list for PBXNativeTarget "LetsWalk_Exp_WidgitExtension" */;
+			buildPhases = (
+				6D4683DA28A5607C007FB56D /* Sources */,
+				6D4683DB28A5607C007FB56D /* Frameworks */,
+				6D4683DC28A5607C007FB56D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetsWalk_Exp_WidgitExtension;
+			productName = LetsWalk_Exp_WidgitExtension;
+			productReference = 6D4683DE28A5607C007FB56D /* LetsWalk_Exp_WidgitExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +191,9 @@
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					6D4683C828A54F31007FB56D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6D4683DD28A5607C007FB56D = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
@@ -116,6 +212,7 @@
 			projectRoot = "";
 			targets = (
 				6D4683C828A54F31007FB56D /* LetsWalk_Exp */,
+				6D4683DD28A5607C007FB56D /* LetsWalk_Exp_WidgitExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +227,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6D4683DC28A5607C007FB56D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4683E928A5607E007FB56D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +242,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D4683EC28A5607E007FB56D /* LetsWalk_Exp_Widgit.intentdefinition in Sources */,
 				6D4683CF28A54F31007FB56D /* ContentView.swift in Sources */,
 				6D4683CD28A54F31007FB56D /* LetsWalk_ExpApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6D4683DA28A5607C007FB56D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4683E628A5607C007FB56D /* LetsWalk_Exp_Widgit.swift in Sources */,
+				6D4683EB28A5607E007FB56D /* LetsWalk_Exp_Widgit.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D4683EE28A5607E007FB56D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D4683DD28A5607C007FB56D /* LetsWalk_Exp_WidgitExtension */;
+			targetProxy = 6D4683ED28A5607E007FB56D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6D4683D528A54F34007FB56D /* Debug */ = {
@@ -262,8 +385,10 @@
 		6D4683D828A54F34007FB56D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LetsWalk_Exp/LetsWalk_Exp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LetsWalk_Exp/Preview Content\"";
@@ -292,8 +417,10 @@
 		6D4683D928A54F34007FB56D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LetsWalk_Exp/LetsWalk_Exp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LetsWalk_Exp/Preview Content\"";
@@ -319,6 +446,62 @@
 			};
 			name = Release;
 		};
+		6D4683F128A5607E007FB56D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = LetsWalk_Exp_WidgitExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTXRWNZ3Q3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LetsWalk_Exp_Widgit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LetsWalk_Exp_Widgit;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShakFeizi.LetsWalk-Exp.LetsWalk-Exp-Widgit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D4683F228A5607E007FB56D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = LetsWalk_Exp_WidgitExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTXRWNZ3Q3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LetsWalk_Exp_Widgit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LetsWalk_Exp_Widgit;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShakFeizi.LetsWalk-Exp.LetsWalk-Exp-Widgit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -336,6 +519,15 @@
 			buildConfigurations = (
 				6D4683D828A54F34007FB56D /* Debug */,
 				6D4683D928A54F34007FB56D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D4683F028A5607E007FB56D /* Build configuration list for PBXNativeTarget "LetsWalk_Exp_WidgitExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D4683F128A5607E007FB56D /* Debug */,
+				6D4683F228A5607E007FB56D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
